@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+	<title></title>
+</head>
+<body>
+	<nav class="dws-menu">
+		<ul>
+			<li><a href="#"><i class="fa fa-home"></i>Главная</a></li>
+			<li><a href="#"><i class="fa fa-shopping-cart"></i>Продукция</a>
+				<ul>
+	<li><a href="#">Колбоса</a>
+	<ul>
+<li><a href="#">Куриная</a></li>
+<li><a href="#">Говяжая</a></li>
+<li><a href="#">Докторская</a></li>
+</ul>
+<li><a href="#">Копчёаня</a>
+<ul>
+<li><a href="#">С сыром</a></li>
+<li><a href="#">Куриная</a></li>
+</ul>
+<ul>
+	<li><a href="#">Сосиськи</a>
+<li><a href="#">Охотничие</a></li>
+<li><a href="#">С сыром</a></li>
+<li><a href="#">Для хотдога</a></li>
+</ul>
+<ul>
+<li><a href="#">Продукты питания</a></li>
+<li><a href="#">Инструменты</a></li>
+<li><a href="#">Быт. химия</a></li>
+</ul>
+<ul>
+<li><a href="#"><i class="fa fa-cogs"></i>Услуги</a>
+<ul>
+<li><a href="3.html">Услуга 1</a></li>
+<li><a href="4.html">Услуга 2</a></li>
+<li><a href="5.html">Услуга 3</a></li>
+<li><a href="6.html">Услуга 4</a></li>
+</ul>
+<ul>
+<li><a href="#"><i class="fa fa-th-list"></i>Новости</a>
+<ul>
+<li><a href="1.html">Новости о сайте</a></li>
+<li><a href="2.html">Новости Sublimetext</a></li>	
+</ul>
+</li>
+<li><a href="#"><i class="fa fa-envelope-open"></i>Контакты</a></li>
+		</ul>
+	</nav>
+
+	
+<style type="text/css">
+	body{
+ background-image: url("../img/ep_naturalwhite.png");
+}
+header{
+ margin-top: 200px;
+ font-family: Cuprum, Arial, Helvetica, sans-serif;
+}
+.dws-menu *{
+ margin: 0;
+ padding: 0;
+}
+.dws-menu ul,
+.dws-menu ol{
+ list-style: none;
+}
+.dws-menu > ul{
+ display: flex;
+ justify-content: center;
+}
+.dws-menu > ul li{
+ position: relative;
+ border-right: 1px solid #c7c8ca;
+}
+.dws-menu > ul li:first-child{
+ border-left: 1px solid #b2b3b5;
+}
+.dws-menu > ul li:last-child{
+ border-right: 1px solid #babbbd;
+}
+.dws-menu > ul li > a i.fa{
+ position: absolute;
+ top: 15px;
+ left: 12px;
+ font-size: 18px;
+}
+.dws-menu > ul li a{
+ display: block;
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9c9c9+0,f6f6f6+2,c4c5c7+98,757577+100;Custom+3 */
+ background: rgb(201,201,201); /* Old browsers */
+ background: -moz-linear-gradient(top,  rgba(201,201,201,1) 0%, rgba(246,246,246,1) 2%, rgba(196,197,199,1) 98%, rgba(117,117,119,1) 100%); /* FF3.6-15 */
+ background: -webkit-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(to bottom,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#757577',GradientType=0 ); /* IE6-9 */
+
+ padding: 15px 30px 15px 40px;
+ font-size: 14px;
+ color: #454547;
+ text-decoration: none;
+ text-transform:uppercase;
+ transition: all 0.3s ease;
+}
+.dws-menu li a:hover{
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e0e1e5+0,454547+2,454547+98,e0e1e5+100 */
+ background: rgb(224,225,229); /* Old browsers */
+ background: -moz-linear-gradient(top,  rgba(224,225,229,1) 0%, rgba(69,69,71,1) 2%, rgba(69,69,71,1) 98%, rgba(224,225,229,1) 100%); /* FF3.6-15 */
+ background: -webkit-linear-gradient(top,  rgba(224,225,229,1) 0%,rgba(69,69,71,1) 2%,rgba(69,69,71,1) 98%,rgba(224,225,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(to bottom,  rgba(224,225,229,1) 0%,rgba(69,69,71,1) 2%,rgba(69,69,71,1) 98%,rgba(224,225,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e1e5', endColorstr='#e0e1e5',GradientType=0 ); /* IE6-9 */
+
+ color: #ffffff;
+ box-shadow: 1px 5px 10px -5px black;
+ transition: all 0.3s ease;
+}
+
+/*sub menu*/
+.dws-menu li ul{
+ position: absolute;
+ min-width: 150px;
+ display: none;
+}
+.dws-menu li > ul li{
+ border: 1px solid #c7c8ca;
+}
+.dws-menu li > ul li a{
+ padding: 10px;
+ text-transform: none;
+ background: #e4e4e5;
+}
+.dws-menu li > ul li ul{
+ position: absolute;
+ right: -150px;
+ top: 0;
+}
+.dws-menu li:hover > ul{
+ display: block;
+}
+	h1{
+		font-size:100px; 
+		background-color: #161616;
+		color:orange;
+		text-align: center;
+		text-decoration: ;
+		text-transform: unset;
+		padding: 32px;
+		margin: 30px	
+	}
+	p{
+		font-size: 34px;
+		color: red;
+	}
+     	a{
+		font-size: 34px;
+ 		background-color: ;
+	color:lime ;
+	}
+ahttp://go.mail.ru/redir?via_page=1&type=sr&redir=eJzLKCkpsNLXz0zWy63UzTM31isq1Y9XdTFQdTQAkU4Q0kTVxVDVwhjMNgOTLmARJzDbUtUIrMzSCMw1BUshsw0YGAxNDQ3NLczMzQ0YAiNtvf_tcCxTLAz4vu93by0AFiYhOg{
+		font-size: 34px;
+ 		background-color: ;
+	color:red ;
+	}
+	h1 {
+	text-align: center;
+	font-family: sans-serif;
+
+}
+.link{
+	color: 3333;
+	padding: 32px;
+	font-size: 32px;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+footer {
+	margin-top: 200px;
+}
+</style>
+<h1>Цены</h1>
+<a class="link link1" href="40.html">Главное</a>
+<a class="link link2" href="50.html">Цены</a>
+<a class="link link3" href="60.html">Регистрация</a>
+<a class="link link2" href="20.html">магазин</a>
+<a href="http://go.mail.ru/redir?via_page=1&type=sr&redir=eJzLKCkpsNLXz0zWy63UzTM31isq1Y9XdTFQdTQAkU4Q0kTVxVDVwhjMNgOTLmARJzDbUtUIrMzSCMw1BUshsw0YGAxNDQ3NLczMzQ0YAiNtvf_tcCxTLAz4vu93by0AFiYhOg">buy</a>
+<form oninput="result.value=(cm.value/2.54).toFixed(2)">
+	<p>Ведите длину в сантиметрах:
+	<input type="number" name="cm" autofocus></p>
+    <p>Длина в дюймах: <output name="result">0</output></p>
+</form>
+</body>
+</html>
